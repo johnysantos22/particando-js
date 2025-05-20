@@ -1,0 +1,29 @@
+body {
+   font-family:Arial, Helvetica, sans-serif;
+   text-align: center;
+   background-color:#f0f0f0f0;
+   padding: 50px;
+}
+
+.container {
+ background-color: whilte;
+ padding: 30px;
+ border-radius: 10px;
+ display:inline-block;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button, input {
+   padding: 10px;
+   margin-top: 15px;
+   font-size: 16px;
+}
+
+#mensagem {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#tentativa {
+    color: gray;
+}
