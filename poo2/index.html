@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Sistema de Produtos</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro de Produtos</h2>
+    <label for="nome">Nome do Produto:</label>
+    <input type="text" id="nome" placeholder="Ex: Caneta" />
+
+    <label for="preco">Preço:</label>
+    <input type="text" id="preco" placeholder="Ex: 4.99" />
+
+    <button onclick="sistema.adicionarProduto()">Adicionar Produto</button>
+
+    <div class="mensagem" id="mensagem"></div>
+
+    <h3>Lista de Produtos:</h3>
+    <ul id="listaProdutos"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
